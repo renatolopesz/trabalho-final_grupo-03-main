@@ -1,0 +1,276 @@
+body {
+    background-color: #030007;
+}
+
+.background {
+    background-image: url(../img/cenas/banner-header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    filter: blur(8px);
+}
+
+*:focus {
+    border-radius: 4px;
+}
+
+*:focus {
+    box-shadow: 0px 0px 0px 2px #1C1B1F, 0px 0px 0px 4px #DDE316;
+    outline: none;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+.menu {
+    background: linear-gradient(180deg, #4f4b4b 0%, rgba(0, 0, 0, 0.00) 100%);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    position: static;
+    box-sizing: border-box;
+    padding: 2rem 3rem;
+    z-index: 999;
+}
+
+.menu__nav {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-end;
+    background-color: none;
+}
+
+.menu__nav__item {
+    list-style: none;
+}
+
+.menu__nav__item a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu__nav__item a:hover {
+    border-bottom: 2px solid #dde316;
+    padding-bottom: 8px;
+    transition: ease-out 100ms;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox__title {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.flexbox__title p {
+    color: #DDE316;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.flexbox__img {
+    margin-top: 25px;
+}
+#img1 {
+    width: 300px;
+    border-radius: 20px;
+}
+
+#img2 {
+    width: 786px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.flexbox__container p {
+    color: white;
+}
+
+.flexbox__container .container__descricao {
+    font-size: 20px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    width: 950px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 0px;
+}
+
+.container__direcao {
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    width: 950px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 0px;
+}
+
+.container__roteiro {
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    width: 950px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 0px;
+}
+
+.container__elenco {
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    width: 950px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 0px;
+}
+
+.container__color {
+    color: #DDE316;
+    font-size: 20px;
+}
+
+.tags {
+    color: #DDE316;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tags .tags__aventura {
+    border-style: solid;
+    border-color: #DDE316;
+    border-radius: 30%;
+    border-width: 2px;
+    width: fit-content;
+    padding: 15px;
+    text-align: center;
+}
+
+.tags .tags__comedia {
+    border-style: solid;
+    border-color: #DDE316;
+    border-radius: 30%;
+    border-width: 2px;
+    width: fit-content;
+    padding: 15px;
+    text-align: center;
+}
+
+.tags .tags__animacao {
+    border-style: solid;
+    border-color: #DDE316;
+    border-radius: 30%;
+    border-width: 2px;
+    width: fit-content;
+    padding: 15px;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.column p {
+    color:#fff;
+}
+
+.Menu-favoritos {
+    display: flex;
+    flex-direction: column;
+   margin-top: 30px;
+   
+  }
+.Menu-favoritos_botoes {
+    margin-bottom: 20px;
+    
+    }
+
+  .Menu-favoritos_botoes_div-de-separação { 
+    display: flex;
+   flex-direction: row;
+   border-top: 1px solid rgb(110, 110, 110); 
+   padding-top: 20px;  
+   margin-top: 20px;
+   padding-bottom: 20px;
+   gap: 350px;
+   
+  }
+  .Menu-favoritos_botoes_Titulo { margin-left: 40px;
+    font-size: 40px;
+}
+
+  .Menu-favoritos_botoes_submenu
+   {
+   
+    border-top: 1px solid rgb(110, 110, 110); 
+    padding-top: 20px;  
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    gap: 950px;
+    border-bottom: 1px solid rgb(110, 110, 110); 
+    display: flex;
+    flex-direction: row;
+}
+  .Menu-favoritos_botoes_Titulo2 {
+    margin: 0;}
+
+
+.Lista-de-filmes {
+    align-items: flex-start;
+    display: flex;
+    border-right: 1px solid rgb(110, 110, 110);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(110, 110, 110); 
+}
+
+.Lista-de-filmes_imagem-dos-filmes {
+    width: 200px;
+  margin-bottom: 30px;
+  border:5px solid #ffffff;
+  border-radius: 10%;
+  box-shadow: 0 20px 20px rgba(221,227,22, 0.2);
+}
+
+.Lista-de-filmes_Titulo-dos-filmes {
+    
+    margin: 0;
+    color: #DDE316;
+    
+}
+
+.Lista-de-filmes_cabeçalho {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.Lista-de-filmes_cabeçalho_Estrela {width: 15px;
+margin: 0;
+}
+

@@ -1,0 +1,65 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* remover body */
+
+body{
+    background-color: black;
+    background-image: url(../img/filmes.png);
+}
+
+.mainContainer{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.quizzContainer{
+    background-color: #00000035;
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    backdrop-filter: blur(25px);
+}
+
+.quizzContainer__img{
+    border-radius: 20px;
+}
+
+.quizzContainer__txt{
+    width: 750px;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.quizzContainer__txt__titulo{
+    color: white;
+    font-size: 2em;
+}
+
+.quizzContainer__txt__tempo{
+    color: #DDE316;
+}
+
+.quizzContainer__txt__btn{
+    margin-top: 100px;
+    align-self: flex-end;
+}
+
+.quizzContainer__txt__btn__a{
+    background-color: #DDE316;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
